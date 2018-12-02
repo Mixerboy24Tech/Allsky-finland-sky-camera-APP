@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.mixerboy24.tech.allsky_finlandskycamera.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/Swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvSwipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hello World!"
+            android:textSize="40sp"
+            android:visibility="invisible" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="404dp"
+            android:layout_height="216dp"
+            android:layout_marginLeft="10px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:text="Mixerboy24Tech Allsky"
+            android:textColor="@color/Orange"
+            android:textSize="54px"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+
+
